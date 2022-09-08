@@ -7,6 +7,8 @@ struct Cli {
 }
 
 fn main() {
+    human_panic::setup_panic!();
+
     let args = Cli::parse();
 
     let canon_paths = args
