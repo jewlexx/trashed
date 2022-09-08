@@ -5,6 +5,8 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Juliette Cordor <grassojames5@gmail.com>"]
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/jewlexx/trash-cli"
+homepage = "https://github.com/jewlexx/trash-cli"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
