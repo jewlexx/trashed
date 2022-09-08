@@ -544,7 +544,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "trash-cli"
+name = "trashed"
 version = "1.0.0"
 dependencies = [
  "clap",

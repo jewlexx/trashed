@@ -1,12 +1,12 @@
 [package]
-name = "trash-cli"
+name = "trashed"
 description = "Cross-Platform, lightweight command line interface to the trashcan"
 version = "1.0.0"
 edition = "2021"
 authors = ["Juliette Cordor <grassojames5@gmail.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/jewlexx/trash-cli"
-homepage = "https://github.com/jewlexx/trash-cli"
+repository = "https://github.com/jewlexx/trashed"
+homepage = "https://github.com/jewlexx/trashed"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
