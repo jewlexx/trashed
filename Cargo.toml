@@ -1,7 +1,7 @@
 [package]
 name = "trash-cli"
 description = "Cross-Platform, lightweight command line interface to the trashcan"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["Juliette Cordor <grassojames5@gmail.com>"]
 license = "MIT OR Apache-2.0"
