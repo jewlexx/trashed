@@ -3,6 +3,7 @@ use clap::Parser;
 #[derive(Debug, Parser)]
 #[clap(author, about)]
 struct Cli {
+    #[clap(help = "A list of file paths or regular expressions to match")]
     files: Vec<String>,
 }
 
@@ -15,6 +16,8 @@ fn main() {
         .files
         .iter()
         .map(|f| {
+            let components = f.split(['/', '\\']).collect::<Vec<&str>>();
+
             dunce::canonicalize(f)
                 .unwrap_or_else(|_| panic!("Failed to canonicalize path (invalid path: {})", f))
         })
